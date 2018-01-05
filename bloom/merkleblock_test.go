@@ -9,10 +9,10 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/bloom"
+	"github.com/devwarrior777/xzcd/chaincfg/chainhash"
+	"github.com/devwarrior777/xzcd/wire"
+	xzcutil "github.com/devwarrior777/xzcutil"
+	"github.com/devwarrior777/xzcutil/bloom"
 )
 
 func TestMerkleBlock3(t *testing.T) {
@@ -29,7 +29,7 @@ func TestMerkleBlock3(t *testing.T) {
 		t.Errorf("TestMerkleBlock3 DecodeString failed: %v", err)
 		return
 	}
-	blk, err := btcutil.NewBlockFromBytes(blockBytes)
+	blk, err := xzcutil.NewBlockFromBytes(blockBytes)
 	if err != nil {
 		t.Errorf("TestMerkleBlock3 NewBlockFromBytes failed: %v", err)
 		return
@@ -60,7 +60,7 @@ func TestMerkleBlock3(t *testing.T) {
 	}
 
 	got := bytes.NewBuffer(nil)
-	err = mBlock.BtcEncode(got, wire.ProtocolVersion)
+	err = mBlock.BtcEncode(got, wire.ProtocolVersion, wire.BaseEncoding)
 	if err != nil {
 		t.Errorf("TestMerkleBlock3 BtcEncode failed: %v", err)
 		return

@@ -2,14 +2,14 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil_test
+package xzcutil_test
 
 import (
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	. "github.com/btcsuite/btcutil"
+	"github.com/devwarrior777/xzcd/btcec"
+	"github.com/devwarrior777/xzcd/chaincfg"
+	. "github.com/devwarrior777/xzcutil"
 )
 
 func TestEncodeDecodeWIF(t *testing.T) {
