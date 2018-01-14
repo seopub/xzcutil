@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/devwarrior777/xzcd/chaincfg/chainhash"
-	"github.com/devwarrior777/xzcd/wire"
-	"github.com/devwarrior777/xzcutil"
-	"github.com/devwarrior777/xzcutil/coinset"
+	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
+	"github.com/zcoinofficial/xzcd/wire"
+	"github.com/zcoinofficial/xzcutil"
+	"github.com/zcoinofficial/xzcutil/coinset"
 )
 
 type TestCoin struct {

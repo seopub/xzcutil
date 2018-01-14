@@ -7,9 +7,9 @@ package xzcutil_test
 import (
 	"testing"
 
-	"github.com/devwarrior777/xzcd/btcec"
-	"github.com/devwarrior777/xzcd/chaincfg"
-	. "github.com/devwarrior777/xzcutil"
+	"github.com/zcoinofficial/xzcd/btcec"
+	"github.com/zcoinofficial/xzcd/chaincfg"
+	. "github.com/zcoinofficial/xzcutil"
 )
 
 func TestEncodeDecodeWIF(t *testing.T) {

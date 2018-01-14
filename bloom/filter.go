@@ -9,10 +9,10 @@ import (
 	"math"
 	"sync"
 
-	"github.com/devwarrior777/xzcd/chaincfg/chainhash"
-	"github.com/devwarrior777/xzcd/txscript"
-	"github.com/devwarrior777/xzcd/wire"
-	"github.com/devwarrior777/xzcutil"
+	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
+	"github.com/zcoinofficial/xzcd/txscript"
+	"github.com/zcoinofficial/xzcd/wire"
+	"github.com/zcoinofficial/xzcutil"
 )
 
 // ln2Squared is simply the square of the natural log of 2.

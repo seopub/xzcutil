@@ -7,7 +7,7 @@ package base58_test
 import (
 	"testing"
 
-	"github.com/devwarrior777/xzcutil/base58"
+	"github.com/zcoinofficial/xzcutil/base58"
 )
 
 var checkEncodingStringTests = []struct {

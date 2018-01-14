@@ -7,7 +7,7 @@ package base58_test
 import (
 	"fmt"
 
-	"github.com/devwarrior777/xzcutil/base58"
+	"github.com/zcoinofficial/xzcutil/base58"
 )
 
 // This example demonstrates how to decode modified base58 encoded data.

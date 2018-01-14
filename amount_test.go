@@ -8,7 +8,7 @@ import (
 	"math"
 	"testing"
 
-	. "github.com/devwarrior777/xzcutil"
+	. "github.com/zcoinofficial/xzcutil"
 )
 
 func TestAmountCreation(t *testing.T) {

@@ -12,7 +12,7 @@ import (
 	"testing"
 	"unicode"
 
-	"github.com/devwarrior777/xzcutil"
+	"github.com/zcoinofficial/xzcutil"
 )
 
 // TestAppDataDir tests the API for AppDataDir to ensure it gives expected

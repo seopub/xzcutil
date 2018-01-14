@@ -12,9 +12,9 @@ interface. The functions are only exported while the tests are being run.
 package xzcutil
 
 import (
-	"github.com/devwarrior777/xzcd/btcec"
-	"github.com/devwarrior777/xzcutil/base58"
-	"github.com/devwarrior777/xzcutil/bech32"
+	"github.com/zcoinofficial/xzcd/btcec"
+	"github.com/zcoinofficial/xzcutil/base58"
+	"github.com/zcoinofficial/xzcutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 

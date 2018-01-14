@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/devwarrior777/xzcd/chaincfg/chainhash"
-	"github.com/devwarrior777/xzcd/wire"
-	"github.com/devwarrior777/xzcutil"
+	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
+	"github.com/zcoinofficial/xzcd/wire"
+	"github.com/zcoinofficial/xzcutil"
 )
 
 // TestBlock tests the API for Block.
