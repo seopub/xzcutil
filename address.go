@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zcoinofficial/xzcd/btcec"
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcutil/base58"
-	"github.com/zcoinofficial/xzcutil/bech32"
+	"github.com/seopub/xzcd/btcec"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcutil/base58"
+	"github.com/seopub/xzcutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 
