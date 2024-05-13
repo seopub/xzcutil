@@ -8,8 +8,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/seopub/xzcd/chaincfg/chainhash"
-	"github.com/seopub/xzcd/wire"
+	"github.com/seopub/xzcd/"
 )
 
 // TxIndexUnknown is the value returned for a transaction index that is unknown.
