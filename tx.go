@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/seopub/xzcd/"
+	"github.com/seopub/xzcd"
 )
 
 // TxIndexUnknown is the value returned for a transaction index that is unknown.
