@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zcoinofficial/xzcutil"
+	"github.com/seopub/xzcutil"
 )
 
 // TestNewTLSCertPair ensures the NewTLSCertPair function works as expected.

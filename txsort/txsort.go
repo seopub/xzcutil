@@ -11,8 +11,8 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
-	"github.com/zcoinofficial/xzcd/wire"
+	"github.com/seopub/xzcd/chaincfg/chainhash"
+	"github.com/seopub/xzcd/wire"
 )
 
 // InPlaceSort modifies the passed transaction inputs and outputs to be sorted

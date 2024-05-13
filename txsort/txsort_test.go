@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/zcoinofficial/xzcd/wire"
-	"github.com/zcoinofficial/xzcutil/txsort"
+	"github.com/seopub/xzcd/wire"
+	"github.com/seopub/xzcutil/txsort"
 )
 
 // TestSort ensures the transaction sorting works according to the BIP.

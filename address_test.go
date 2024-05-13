@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcutil"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcutil"
 	"golang.org/x/crypto/ripemd160"
 )
 

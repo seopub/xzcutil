@@ -9,9 +9,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
-	"github.com/zcoinofficial/xzcd/wire"
-	"github.com/zcoinofficial/xzcutil/bloom"
+	"github.com/seopub/xzcd/chaincfg/chainhash"
+	"github.com/seopub/xzcd/wire"
+	"github.com/seopub/xzcutil/bloom"
 )
 
 // This example demonstrates how to create a new bloom filter, add a transaction

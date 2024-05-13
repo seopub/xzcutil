@@ -8,10 +8,10 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/zcoinofficial/xzcd/btcec"
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
-	"github.com/zcoinofficial/xzcutil/base58"
+	"github.com/seopub/xzcd/btcec"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcd/chaincfg/chainhash"
+	"github.com/seopub/xzcutil/base58"
 )
 
 // ErrMalformedPrivateKey describes an error where a WIF-encoded private

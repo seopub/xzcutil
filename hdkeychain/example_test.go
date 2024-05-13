@@ -7,8 +7,8 @@ package hdkeychain_test
 import (
 	"fmt"
 
-	"github.com/zcoinofficial/xzcd/chaincfg"
-	"github.com/zcoinofficial/xzcutil/hdkeychain"
+	"github.com/seopub/xzcd/chaincfg"
+	"github.com/seopub/xzcutil/hdkeychain"
 )
 
 // This example demonstrates how to generate a cryptographically random seed

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/zcoinofficial/xzcutil"
+	"github.com/seopub/xzcutil"
 )
 
 func ExampleAmount() {

@@ -5,10 +5,10 @@
 package bloom
 
 import (
-	"github.com/zcoinofficial/xzcd/blockchain"
-	"github.com/zcoinofficial/xzcd/chaincfg/chainhash"
-	"github.com/zcoinofficial/xzcd/wire"
-	"github.com/zcoinofficial/xzcutil"
+	"github.com/seopub/xzcd/blockchain"
+	"github.com/seopub/xzcd/chaincfg/chainhash"
+	"github.com/seopub/xzcd/wire"
+	"github.com/seopub/xzcutil"
 )
 
 // merkleBlock is used to house intermediate information needed to generate a
